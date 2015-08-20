@@ -1,0 +1,6 @@
+GeneratedFiles/
+*.suo
+Debug/
+*.opensdf
+Release/
+*.vcxproj.user
