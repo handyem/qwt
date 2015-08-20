@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qwt", "src\qwt.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{110801CD-8733-4FFA-83D1-DACF7438B31B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rasterview", "examples\rasterview\rasterview.vcxproj", "{1913AE84-16ED-4FEF-B239-9C04A4A5AD9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,9 +17,16 @@ Global
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.Build.0 = Debug|Win32
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.ActiveCfg = Release|Win32
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.Build.0 = Release|Win32
+		{1913AE84-16ED-4FEF-B239-9C04A4A5AD9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1913AE84-16ED-4FEF-B239-9C04A4A5AD9B}.Debug|Win32.Build.0 = Debug|Win32
+		{1913AE84-16ED-4FEF-B239-9C04A4A5AD9B}.Release|Win32.ActiveCfg = Release|Win32
+		{1913AE84-16ED-4FEF-B239-9C04A4A5AD9B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1913AE84-16ED-4FEF-B239-9C04A4A5AD9B} = {110801CD-8733-4FFA-83D1-DACF7438B31B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		Qt5Version = $(DefaultQtVersion)
