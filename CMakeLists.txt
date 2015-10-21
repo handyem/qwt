@@ -45,3 +45,4 @@ target_compile_definitions(${LIBRARY_NAME}
   PRIVATE QWT_MAKEDLL
   PUBLIC QWT_DLL)
 
+set_property(TARGET ${LIBRARY_NAME} PROPERTY FOLDER "ExternalLibraries")
